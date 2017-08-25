@@ -1,0 +1,29 @@
+{
+  "name": "vipymecli",
+  "version": "1.0.1",
+  "description": "The Official ViPyME Command Line Interface\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[c\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mazyvan/vipymecli.git"
+  },
+  "keywords": [
+    "vipyme",
+    "cli"
+  ],
+  "author": "Ivan Sanchez",
+  "license": "MIT",
+  "bin": {
+    "vipymecli": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/mazyvan/vipymecli/issues"
+  },
+  "homepage": "https://github.com/mazyvan/vipymecli#readme",
+  "dependencies": {
+    "commander": "^2.11.0"
+  }
+}
