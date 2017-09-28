@@ -4,7 +4,7 @@
 let cli = require('commander');
 
 cli
-  .version('1.0.1')
+  .version('1.0.4')
   .name('vipymecli')
   .description('The Official ViPyME Command Line Interface');
 
