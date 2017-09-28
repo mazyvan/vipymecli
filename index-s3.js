@@ -16,7 +16,7 @@ cli
   .action(obj => {
     executed = true;
     if (!obj.template) return console.error('\n  error: option `-t, --template <required>\' argument missing\n');
-    const awsS3Sync = exec(`aws s3 sync ${path.resolve("./") + '\\templates\\' + obj.template} s3://vipyme-templates/${obj.template} --delete`);
+    const awsS3Sync = exec(`aws s3 sync ${path.resolve("./") + '\\templates\\' + obj.template} s3://vipyme-templates/${obj.template} --delete --cache-control public,max-age=31556926`);
 
     awsS3Sync.stdout.on('data', function (data) {
       console.log(data);
